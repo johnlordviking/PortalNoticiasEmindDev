@@ -189,12 +189,14 @@ body {
 
 
 
-
-
-
-
 body.mode-dark {
     background-color: #24042a;
     color: #fff;
 }
+
+body.mode-dark .noticia-principal {
+    background-color: #5c066b;
+}
+
+
 
