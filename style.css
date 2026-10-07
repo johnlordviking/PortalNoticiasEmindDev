@@ -185,18 +185,24 @@ body {
 }
 
 
-
-
-
-
 body.mode-dark {
-    background-color: #24042a;
+    background-color: #150119;
     color: #fff;
 }
 
 body.mode-dark .noticia-principal {
-    background-color: #5c066b;
+    background-color: #310539;
+    box-shadow: 0 2px 5px rgba(223, 0, 219, 0.4);
 }
 
+body.mode-dark .card-noticia{
+    background-color: #310539;
+    box-shadow: 0 2px 5px rgba(223, 0, 219, 0.6);
+}
+
+body.mode-dark .materia-completa {
+    background-color: #310539;
+    box-shadow: 0 2px 5px rgba(223, 0, 219, 0.6);
+}
 
 
