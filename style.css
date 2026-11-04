@@ -333,3 +333,14 @@ body.mode-dark .rodape {
     font-size: 11px;
     color: #888;
 }
+
+/*ESTADO CURTIDO do BOTAO*/
+.btn-like.curtido {
+    border-color: #e63946;
+    background-color: #ffebee;
+    color: #e63946;
+}
+
+.btn-like.curtido .contador-likes {
+    color: #e63946;
+}
