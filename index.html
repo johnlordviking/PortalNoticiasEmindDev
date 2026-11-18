@@ -75,8 +75,8 @@ Aenean hendrerit mauris sed ipsum sollicitudin, non facilisis ipsum faucibus. Ma
     <h4>Deixe seu comentário</h4>
 
     <!-- Formulário que receberá os dados no futuro -->
-    <form class="form-comentario" onsubmit="return false;">
-      <input 
+    <form class="form-comentario" onsubmit="salvarComentario('materia-principal',this)">
+d      <input 
         type="text" 
         class="input-autor" 
         placeholder="Seu nome ou apelido" 
@@ -129,7 +129,7 @@ Aenean hendrerit mauris sed ipsum sollicitudin, non facilisis ipsum faucibus. Ma
                         <h4>Deixe seu comentário</h4>
 
                         <!-- Formulário que receberá os dados no futuro -->
-                        <form class="form-comentario" onsubmit="salvarComentario(event)">
+                        <form class="form-comentario" onsubmit="salvarComentario('materia1',this)">
                           <input 
                             type="text" 
                             class="input-autor" 
@@ -183,7 +183,7 @@ Aenean hendrerit mauris sed ipsum sollicitudin, non facilisis ipsum faucibus. Ma
                             <h4>Deixe seu comentário</h4>
 
                             <!-- Formulário que receberá os dados no futuro -->
-                            <form class="form-comentario" onsubmit="return false;">
+                            <form class="form-comentario" onsubmit="salvarComentario('materia2',this)">
                             <input 
                                 type="text" 
                                 class="input-autor" 
